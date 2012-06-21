@@ -130,9 +130,10 @@ textSpanModOne = {
 melody = \relative c' {
 	\set Staff.midiInstrument = "acoustic grand"
 	\set Score.markFormatter = #format-mark-box-alphabet
+	\compressFullBarRests
+	\override MultiMeasureRest #'expand-limit = #2
 	\clef treble
 	\defaults
-	\compressFullBarRests
 	%1
 		R1
 		\bar "|."
