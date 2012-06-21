@@ -131,11 +131,7 @@ melody = \relative c' {
 	\set Staff.midiInstrument = "acoustic grand"
 	\clef treble
 	\defaults
-	\override Score.MetronomeMark #'padding = #1
-	\override Score.MetronomeMark #'extra-offset = #'(-8 . 2)
 	\set Score.markFormatter = #format-mark-box-alphabet
-	\override Score.RehearsalMark #'padding = #1
-	\override Score.RehearsalMark #'extra-offset = #'(0 . 0)
 	%1
 		R1
 		\bar "|."
