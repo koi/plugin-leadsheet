@@ -8,7 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "english.ly"
-\include "/home/brian/Documents/Music/LilyPond/include/definitions.ly"
+\include "../../../../../include/definitions.ly"
 
 #(set-global-staff-size 20)
 
