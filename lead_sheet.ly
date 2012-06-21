@@ -155,12 +155,7 @@ partb = \relative c {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 chordChanges = \chords { 
-	\set chordChanges = ##t
-	\set chordNameSeparator = \markup { \huge \lower #0.25 "/" }
-	\override ChordName #'font-size = #1.0
-	\override ChordName #'word-space = #0
-	\override ChordName #'extra-spacing-width = #'(0 . 0)
-	\set chordNameExceptions = #customJazzChords
+	\chordDefaults
 	%1
 		R1
 	}
