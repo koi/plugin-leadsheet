@@ -1,4 +1,6 @@
-%%For lead sheets, "melody" has all formating parameters%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%				Lead Sheet					%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%lead sheet template v.2.1.6%%
 
 \version "2.14.2"
@@ -126,6 +128,7 @@ textSpanModOne = {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%			        Melody			        %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Melody section has all formating parameters
 
 melody = \relative c' {
 	\set Staff.midiInstrument = "acoustic grand"
