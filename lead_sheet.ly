@@ -8,7 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "english.ly"
-\include "/home/brian/Documents/Music/LilyPond/include/definitions.ly"
+\include "../../../../../include/definitions.ly"
 
 #(set-global-staff-size 20)
 
@@ -129,13 +129,11 @@ textSpanModOne = {
 
 melody = \relative c' {
 	\set Staff.midiInstrument = "acoustic grand"
+	\set Score.markFormatter = #format-mark-box-alphabet
+	\compressFullBarRests
+	\override MultiMeasureRest #'expand-limit = #2
 	\clef treble
 	\defaults
-	\override Score.MetronomeMark #'padding = #1
-	\override Score.MetronomeMark #'extra-offset = #'(-8 . 2)
-	\set Score.markFormatter = #format-mark-box-alphabet
-	\override Score.RehearsalMark #'padding = #1
-	\override Score.RehearsalMark #'extra-offset = #'(0 . 0)
 	%1
 		R1
 		\bar "|."
@@ -159,12 +157,7 @@ partb = \relative c {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 chordChanges = \chords { 
-	\set chordChanges = ##t
-	\set chordNameSeparator = \markup { \huge \lower #0.25 "/" }
-	\override ChordName #'font-size = #1.0
-	\override ChordName #'word-space = #0
-	\override ChordName #'extra-spacing-width = #'(0 . 0)
-	\set chordNameExceptions = #customJazzChords
+	\chordDefaults
 	%1
 		R1
 	}
