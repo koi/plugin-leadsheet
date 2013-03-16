@@ -32,7 +32,7 @@
 	owner = "Brian Clements"
 	enteredby = "Brian Clements"
 	maintainer = "Brian Clements"
-	maintainerEmail = "blcmusic@gmail.com"
+	maintainerEmail = "brian@brianclements.net"
 	copyright = \markup {
 		Copyright © \year by \owner
 		}
