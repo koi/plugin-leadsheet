@@ -10,7 +10,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "english.ly"
-\include "../../../../../include/definitions.ly"
+\include "../lyInclude/include/definitions.ily"
+\include "../lyInclude/include/jazzChords.ily"
 
 #(set-global-staff-size 20)
 
