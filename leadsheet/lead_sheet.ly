@@ -86,7 +86,12 @@ harmony = \relative c' {
         \new Staff { \melody }
         >>
         }
-    \layout { pagenumber = yes
+    \layout { 
+        pagenumber = yes
+        \set Score.markFormatter = #format-mark-box-alphabet
+        \override MultiMeasureRest #'expand-limit = #2
+        \compressFullBarRests
+        \numericTimeSignature
         \context {
             \Score
             \remove "Bar_number_engraver"
