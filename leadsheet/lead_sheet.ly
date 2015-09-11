@@ -83,6 +83,7 @@ harmony = \relative c' {
     \transpose c c {
         <<
         \chordChanges
+        \chordDefaults
         \new Staff { << \global \partA >> }
         >>
         }
