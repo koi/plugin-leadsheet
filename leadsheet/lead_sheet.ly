@@ -35,15 +35,6 @@
 
 \paper {
     #(set-paper-size "letter")
-    head-separation = 5\mm
-    top-margin = 15\mm
-    left-margin = 15\mm
-    line-width = #185
-    bottom-margin = 18\mm
-    indent = 0\mm
-    after-title-space = 45\mm
-    between-system-space = 30\mm
-    between-system-padding = #2
     ragged-last-bottom = ##t
     ragged-last = ##t
     ragged-bottom = ##f
