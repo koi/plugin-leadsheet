@@ -1,4 +1,4 @@
-% lead_sheet.ly: lilypond template for leadsheets
+% singlepart.ly: lilypond template for leadsheets
 % Copyright (C) 2015, Brian Clements
 
 % This program is free software: you can redistribute it and/or modify it under

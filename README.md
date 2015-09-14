@@ -1,5 +1,6 @@
-# lyTemplates-leadsheet
-[LilyPond](http://lilypond.org) template for creating leadsheets.
+# lyTemplates-singlepart
+[LilyPond](http://lilypond.org) template for creating music with a solo
+instrument and accompaniment chord symbols; essentially a "lead sheet".
 
 ## Overview
 This package is part of the [lyTemplates](https://github.com/brianclements/lyTemplates.git)
@@ -21,7 +22,7 @@ Please see the [CONTRIBUTING](CONTRIBUTING.md) file for instructions.
 ## Community
 
 ## License
-lyTemplates-blanksheets is licensed under the GPL3 license. See the [LICENSE](LICENSE-GPL3) file.
+lyTemplates-singlepart is licensed under the GPL3 license. See the [LICENSE](LICENSE-GPL3) file.
 
 ## Credits
 For a list of contributers, see the [AUTHORS](AUTHORS.md) file.
