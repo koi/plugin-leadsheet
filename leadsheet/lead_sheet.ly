@@ -58,17 +58,6 @@
 %%%%%                               Score                                 %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-harmony = \relative c' {
-    \set Staff.midiInstrument = "acoustic grand"
-    \clef treble
-    \defaults
-    \chords { \chordChanges }
-    }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%                   Score                   %%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \score {
     \transpose c c {
         <<
