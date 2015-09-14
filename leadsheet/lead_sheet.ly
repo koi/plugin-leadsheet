@@ -31,6 +31,7 @@
 \include "../../music.ily"
 
 #(set-global-staff-size 20)
+#(ly:set-option 'relative-includes #t)
 
 
 \paper {
