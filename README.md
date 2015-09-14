@@ -4,10 +4,10 @@ instrument and accompaniment chord symbols; essentially a "lead sheet".
 
 ## Overview
 This package is part of the [lyTemplates](https://github.com/brianclements/lyTemplates.git)
-package. It is a LilyPond template for making blank staff paper.
+package.
 
 ## Requirements
-Lilypond 2.14
+Lilypond 2.16
 
 ## Install
 
