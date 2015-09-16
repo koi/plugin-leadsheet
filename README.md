@@ -3,17 +3,14 @@
 instrument and accompaniment chord symbols; essentially a "lead sheet".
 
 ## Overview
-This package is part of the [lyTemplates](https://github.com/brianclements/lyTemplates.git)
-package.
 
 ## Requirements
-Lilypond 2.16
+Lilypond 2.16.2
 
 ## Install
 
 ## Contribution
 Suggestions and contributions are always welcome and appreciated.
-Please see the [CONTRIBUTING](CONTRIBUTING.md) file for instructions.
 
 ## Documentation
 
@@ -22,7 +19,14 @@ Please see the [CONTRIBUTING](CONTRIBUTING.md) file for instructions.
 ## Community
 
 ## License
-lyTemplates-singlepart is licensed under the GPL3 license. See the [LICENSE](LICENSE-GPL3) file.
+lyTemplates-singlepart is licensed under the GPL3 license.
 
 ## Credits
-For a list of contributers, see the [AUTHORS](AUTHORS.md) file.
+
+## Changelog
+### Version 3.0.0
+2015.09.XX
+
+**Initial Release**
+
+* First version.
