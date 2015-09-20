@@ -68,7 +68,7 @@
         <<
         \chordChanges
         \chordDefaults
-        \new Staff { << \global \partA >> }
+        \new Staff { << \global \partAMusic >> }
         >>
         }
     \layout { 
