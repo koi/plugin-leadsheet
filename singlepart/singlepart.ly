@@ -66,7 +66,7 @@
 \score {
     \transpose c c {
         <<
-        \chordChanges
+        \globalChords
         \chordDefaults
         \new Staff { << \global \partAMusic >> }
         >>
