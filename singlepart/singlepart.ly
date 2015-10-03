@@ -28,6 +28,7 @@
 \include "../lyInclude/lyInclude/definitions.ily"
 \include "../lyInclude/lyInclude/jazzChords.ily"
 \include "../../music.ily"
+\include "../../layout.ily"
 
 #(set-global-staff-size 20)
 #(ly:set-option 'relative-includes #t)
@@ -64,13 +65,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \score {
-    \transpose c c {
-        <<
-        \globalChords
-        \chordDefaults
-        \new Staff { << \global \partAMusic >> }
-        >>
-        }
+    \scoreStaves
     \layout { 
         pagenumber = yes
         \set Score.markFormatter = #format-mark-box-alphabet
