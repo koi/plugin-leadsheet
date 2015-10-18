@@ -21,18 +21,11 @@
 \version "2.16.2"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%                             Include                                 %%%%%
+%%%%%                              Settings                               %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\include "english.ly"
-\include "../lyInclude/lyInclude/definitions.ily"
-\include "../lyInclude/lyInclude/jazzChords.ily"
-\include "../../music.ily"
-\include "../../layout.ily"
 
 #(set-global-staff-size 20)
 #(ly:set-option 'relative-includes #t)
-
 
 \paper {
     #(set-paper-size "letter")
@@ -59,6 +52,17 @@
         \fromproperty #'page:page-number-string
         }
     }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%                             Include                                 %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include "english.ly"
+\include "../lyInclude/lyInclude/definitions.ily"
+\include "../lyInclude/lyInclude/jazzChords.ily"
+\include "../../music.ily"
+\include "../../layout.ily"
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%                               Score                                 %%%%%
