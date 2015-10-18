@@ -60,6 +60,8 @@
 \include "english.ly"
 \include "../lyInclude/lyInclude/definitions.ily"
 \include "../lyInclude/lyInclude/jazzChords.ily"
+\include "../lyInclude/lyInclude/copyright.ily"
+\include "../../header.ily"
 \include "../../music.ily"
 \include "../../layout.ily"
 
