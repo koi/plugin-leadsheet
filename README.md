@@ -29,8 +29,9 @@ Lilypond 2.16.2
             * `cd template`
             * `git submodule update --init`
 
-3. Assuming you've already designed your layout in `layout.ily` and all your
-   music accordingly in `music.ily`, you can now `lilypond singlepart.ly`.
+3. Assuming you've already designed your layout in `layout.ily` and input all
+   your project info as instructed in the [music repository][musicrepo], you can
+   now `lilypond score.ly` or `lilypond parts.ly`.
 
 
 ## Contribution
@@ -48,13 +49,46 @@ lyTemplates-singlepart is licensed under the GPL3 license.
 
 ### Version 3.0.0
 
-2015.10.04
+2015.10.26
 
 * Complete re-working of layout and file structure.
     * Separate staff layout into it's own section and put it in it's own
       repository along with the music.
     * Music/layout are separate repository to which single/multipart layouts can
       plug into using git submodules.
+* fix name of global chords var
+* update lyInclude submodule to v1.1.0
+* use relative-includes
+
+### Version 2.3.0
+
+2015.09.16
+
+* add lyInclude library as submodule
+* remove many manual layout tweaks, let Lilypond do it's thing
 * Character/format/code cleanup from legacy code
-* Apply GPL3 license
 * upgrade to LilyPond 2.16.2
+* moved `lead_sheet.ly` to own dir
+* add documentation
+* Apply GPL3 license
+
+### Version 2.2.1
+
+2013.03.16
+
+* Modify for public export to github
+
+### Version 2.2.0
+
+2012.06.22
+
+* Added \compressFullBarRests and shifted some formatting things around in 'Melody' section.
+* Make \include path objective
+* Removed formatting text for Metronome Mark and Rehearsal Mark in 'Melody' section. Leaving it to auto-formatting
+* Simplified chord formatting by replacing with /chordDefaults
+
+### Version 2.1.6
+
+2012.04.19
+
+* First version controlled release
