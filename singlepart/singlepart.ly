@@ -61,6 +61,7 @@
 \include "../lyInclude/lyInclude/definitions.ily"
 \include "../lyInclude/lyInclude/jazzChords.ily"
 \include "../lyInclude/lyInclude/copyright.ily"
+\include "../../settings.ily"
 \include "../../header.ily"
 \include "../../music.ily"
 \include "../../layout.ily"
@@ -71,7 +72,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \score {
-    \scoreStaves
+    \globalTranspose \scoreStaves
     \layout { 
         pagenumber = yes
         \set Score.markFormatter = #format-mark-box-alphabet
