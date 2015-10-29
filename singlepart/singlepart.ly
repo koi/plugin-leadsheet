@@ -71,18 +71,25 @@
 %%%%%                               Score                                 %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\score {
-    \globalTranspose \scoreStaves
-    \layout { 
-        pagenumber = yes
-        \set Score.markFormatter = #format-mark-box-alphabet
-        \override MultiMeasureRest #'expand-limit = #2
-        \compressFullBarRests
-        \numericTimeSignature
-        \context {
-            \Score
-            \remove "Bar_number_engraver"
+\book {
+    \score {
+        \globalTranspose \scoreStaves
+        \layout { 
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \override MultiMeasureRest #'expand-limit = #2
+            \compressFullBarRests
+            \numericTimeSignature
+            \context {
+                \Score
+                \remove "Bar_number_engraver"
+                }
             }
         }
-    \midi { }
+    \score {
+        \unfoldRepeats {
+            \globalTranspose \scoreStaves
+            }
+        \midi { }
+        }
     }
